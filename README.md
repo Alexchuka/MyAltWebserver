@@ -56,16 +56,16 @@ Tested and it works:
 2. Edited the Synax on my computer: `scp -i ~/Documents/Altschool\ Training/linux/AltKey.pem ~/Documents/Altschool\ Training/linux/index.html ubuntu@18.175.111.255:/var/www/html/`
 
 I got the error messages: 
-	`scp: dest open "/var/www/html/index.html": Permission denied
-	 scp: failed to upload file /Users/chukanwachukwu/Documents/Altschool Training/linux/index.html to /var/www/html/`
+	`scp: dest open "/var/www/html/index.html": Permission denied` <br>
+	` scp: failed to upload file /Users/chukanwachukwu/Documents/Altschool Training/linux/index.html to /var/www/html/`
 Needed to allow permissions to the Ubuntu user as it only allowed the root user.
 
 3. Logged on to my server: `ssh -i AltKey.pem ubuntu@18.175.111.255`
 
 4. Ran the commands to check and allow permission:
-`ls -ld /var/www/html/
-sudo chown -R ubuntu:www-data /var/www/html/
-sudo chmod 755 /var/www/html/`
+`ls -ld /var/www/html/`<br>
+`sudo chown -R ubuntu:www-data /var/www/html/` <br>
+`sudo chmod 755 /var/www/html/`
 
 <img width="655" alt="image" src="https://github.com/user-attachments/assets/ed512bcf-a2cc-40ce-bce5-3f7ed37197d0" />
 
