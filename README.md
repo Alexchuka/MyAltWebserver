@@ -62,7 +62,7 @@ Needed to allow permissions to the Ubuntu user as it only allowed the root user.
 
 3. Logged on to my server: `ssh -i AltKey.pem ubuntu@18.175.111.255`
 
-4. Ran the commands to check and allow permission:
+4. Ran the commands to check and allow permission: <br>
 `ls -ld /var/www/html/`<br>
 `sudo chown -R ubuntu:www-data /var/www/html/` <br>
 `sudo chmod 755 /var/www/html/`
