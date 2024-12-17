@@ -1,9 +1,9 @@
 # Assignment Steps!
 
-# Name: Nwachukwu Chuka Livinus
-# ID: ALT/SOE/024/0955
-# IP Address: 18.175.111.255
-# Domain Name: chuhubspace.com
+Name: Nwachukwu Chuka Livinus
+ID: ALT/SOE/024/0955
+IP Address: 18.175.111.255
+Domain Name: chuhubspace.com
 
 # Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
 
