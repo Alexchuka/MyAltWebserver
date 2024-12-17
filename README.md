@@ -1,18 +1,21 @@
 # Assignment Steps!
 
-Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
+# Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
 
 <img width="1066" alt="image" src="https://github.com/user-attachments/assets/d504e4c6-aa5c-4148-a807-a7f0d54edcf9" />
 
-Step 2: Verify my connection using the commands `whoami` and `hostname`:
+# Step 2: Verify my connection using the commands `whoami` and `hostname`:
 
 <img width="851" alt="image" src="https://github.com/user-attachments/assets/1975ef0b-30e7-4a98-bf41-a3521e40a4f4" />
 
-Step 3:  Run the `sudo apt update` command to install Apache:
+# Step 3:  Update packages on my server
+Run the `sudo apt update` command to install Apache:
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/e68b6e06-156a-4b16-b12f-6a4c4f15f2e4" />
 
-Step 4: Ran the command `sudo apt install apache2` to install the Apache Web Server:
+# Step 4: Installed Apache to my Ubuntu server
+
+Ran the command `sudo apt install apache2` to install the Apache Web Server:
 
 <img width="1109" alt="image" src="https://github.com/user-attachments/assets/5c5a21e0-77f9-437b-9a15-52cfb3947d85" />
 
@@ -22,14 +25,14 @@ Step 4: Ran the command `sudo apt install apache2` to install the Apache Web Ser
 
 <img width="1031" alt="image" src="https://github.com/user-attachments/assets/9605166f-dc98-44f7-83d5-3c65be63c30d" />
 
-Step 5: Started and Enabled Apache Services: 
+# Step 5: Started and Enabled Apache Services: 
 
 `sudo systemctl start apache2`
 `sudo systemctl enable apache2`
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/70026d12-4f7b-4d13-b53d-e06a338958f8" />
 
-Step 6: Verified my installation: https://18.175.111.255/ by creating inbound rules allowing traffic on Port 80 for HTTP, Port 443 for HTTPS, and Custom ICMP Rule – IPv4 for ping.!
+# Step 6: Verified my installation: https://18.175.111.255/ by creating inbound rules allowing traffic on Port 80 for HTTP, Port 443 for HTTPS, and Custom ICMP Rule – IPv4 for ping.!
 
 <img width="1199" alt="image" src="https://github.com/user-attachments/assets/978f0cb1-27ae-4283-96e2-88673c294f0c" />
 
@@ -37,11 +40,11 @@ Tested and it works:
 
 <img width="1058" alt="image" src="https://github.com/user-attachments/assets/48005d91-d149-4bd6-8164-8ca8d6223247" />
 
-Step 7: Created an HTML File called `index.html` on my local computer using VSCode.
+# Step 7: Created an HTML File called `index.html` on my local computer using VSCode.
 
 <img width="1180" alt="image" src="https://github.com/user-attachments/assets/0a1d208f-5660-4064-a104-7293377cf518" />
 
-Step 8: Uploaded my HTML File from my Local Computer to my AWS Ubuntu server using SCP following the steps below:
+# Step 8: Uploaded my HTML File from my Local Computer to my AWS Ubuntu server using SCP following the steps below:
 
 1. Used the Syntax: `scp -i /path/to/your-key.pem /path/to/local-file.html ubuntu@<server-ip>:/path/to/destination/`
 
@@ -68,7 +71,7 @@ sudo chmod 755 /var/www/html/`
 
 It Worked!
 
-Step 9: Edit the HTML file with the command:
+# Step 9: Edit the HTML file with the command:
 `Sudo nano /var/www/html/index.html`
 
 <img width="1227" alt="image" src="https://github.com/user-attachments/assets/30a164b6-4e92-4f24-8d2d-dee98c40553f" />
@@ -78,7 +81,7 @@ The page was successfully deployed to http://18.175.111.255/
 
 <img width="1423" alt="image" src="https://github.com/user-attachments/assets/71fe505a-0ba4-4625-b86d-a282b189815a" />
 
-Step 10:  Configured HTTPS for my web server following the below steps:
+# Step 10:  Configured HTTPS for my web server following the below steps:
 
 1. Installed Certbot for Apache with the command:
   `sudo apt install certbot python3-certbot-apache`
