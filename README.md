@@ -1,9 +1,9 @@
 # Assignment Steps!
 
-Name: Nwachukwu Chuka Livinus
-ID: ALT/SOE/024/0955
-IP Address: 18.175.111.255
-Domain Name: chuhubspace.com
+Name: Nwachukwu Chuka Livinus <br>
+ID: ALT/SOE/024/0955<br>
+IP Address: 18.175.111.255<br>
+Domain Name: chuhubspace.com<br>
 
 # Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
 
@@ -32,7 +32,7 @@ Ran the command `sudo apt install apache2` to install the Apache Web Server:
 
 # Step 5: Started and Enabled Apache Services: 
 
-`sudo systemctl start apache2`
+`sudo systemctl start apache2`<br>
 `sudo systemctl enable apache2`
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/70026d12-4f7b-4d13-b53d-e06a338958f8" />
