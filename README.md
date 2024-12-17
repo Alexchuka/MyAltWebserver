@@ -1,5 +1,10 @@
 # Assignment Steps!
 
+# Name: Nwachukwu Chuka Livinus
+# ID: ALT/SOE/024/0955
+# IP Address: 18.175.111.255
+# Domain Name: chuhubspace.com
+
 # Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
 
 <img width="1066" alt="image" src="https://github.com/user-attachments/assets/d504e4c6-aa5c-4148-a807-a7f0d54edcf9" />
