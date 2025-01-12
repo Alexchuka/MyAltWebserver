@@ -2,7 +2,7 @@
 
 Name: Nwachukwu Chuka Livinus <br>
 ID: ALT/SOE/024/0955<br>
-IP Address: 18.175.111.255<br>
+IP Address: https://3.9.165.121/<br>
 Domain Name: chuhubspace.com<br>
 
 # Step 1: Logged on to my AWS-created EC2 instance with Termius and Added my Server:
@@ -37,7 +37,7 @@ Ran the command `sudo apt install apache2` to install the Apache Web Server:
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/70026d12-4f7b-4d13-b53d-e06a338958f8" />
 
-# Step 6: Verified my installation: https://18.175.111.255/ by creating inbound rules allowing traffic on Port 80 for HTTP, Port 443 for HTTPS, and Custom ICMP Rule – IPv4 for ping.!
+# Step 6: Verified my installation: https://3.9.165.121/ by creating inbound rules allowing traffic on Port 80 for HTTP, Port 443 for HTTPS, and Custom ICMP Rule – IPv4 for ping.!
 
 <img width="1199" alt="image" src="https://github.com/user-attachments/assets/978f0cb1-27ae-4283-96e2-88673c294f0c" />
 
@@ -82,7 +82,7 @@ It Worked!
 <img width="1227" alt="image" src="https://github.com/user-attachments/assets/30a164b6-4e92-4f24-8d2d-dee98c40553f" />
 
 Used `Control + X` to exit.
-The page was successfully deployed to http://18.175.111.255/
+The page was successfully deployed to https://3.9.165.121/
 
 <img width="1423" alt="image" src="https://github.com/user-attachments/assets/71fe505a-0ba4-4625-b86d-a282b189815a" />
 
